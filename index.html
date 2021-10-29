@@ -1,155 +1,234 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Switch Toggle Button</title>
-    <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
-
-    <!-- CSS -->
-    <!-- <link rel="stylesheet" href="./public/css/reset.css"> -->
-    <link rel="stylesheet" href="./public/css/app.css">
-    <link rel="stylesheet" href="./public/css/responsive.css">
-    <link rel="stylesheet" href="./public/css/vendor.css">
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-
-    <style type='text/css'>
-        body{
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-        }
-        </style>
-        <script type='text/javascript'>
-        //<![CDATA[
-        // JavaScript Document
-        var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
-        //]]>
-        </script>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'/>
-        <script type='text/javascript'>
-        checkCtrl=false $(&#39;*&#39;).keydown(function(e){
-        if(e.keyCode==&#39;17&#39;){ checkCtrl=false  } }).keyup(function(ev){
-        if(ev.keyCode==&#39;17&#39;){ checkCtrl=false } }).keydown(function(event){
-        if(checkCtrl){
-        if(event.keyCode==&#39;85&#39;){ return false; } } })
-        </script>
-
+	  <meta name="generator" content="Mantan v1.6" />
+			<meta name="application-name" content="Mantan v1.6">
+			<meta name="Publisher" CONTENT="Mantan v1.6">
+	
+    <title>Phở 10 Lý Quốc Sư</title>
+			  <meta name="description" content="Với những người sành ăn thì phố Lý Quốc Sư đã thực sự trở thành một điểm đến quen thuộc mỗi khi họ muốn thưởng thức một bát phở ngon và chất lượng" />
+			  <meta name="keywords" content="pho ly quoc su,pho ha noi,pho ngon,pho chat luong,pho gia truyen" />      <meta property="og:title" content="Phở 10 Lý Quốc Sư"/>
+    				<meta property="og:type" content="website"/>
+    				<meta property="og:description" content="Với những người sành ăn thì phố Lý Quốc Sư đã thực sự trở thành một điểm đến quen thuộc mỗi khi họ muốn thưởng thức một bát phở ngon và chất lượng"/>
+    				<meta property="og:url" content="http://pho10lyquocsu.com/"/>
+    				<meta property="og:site_name" content="Phở 10 Lý Quốc Sư"/>
+    				<meta property="og:image" content="http://pho10lyquocsu.com/app/webroot/upload/images/gioi-thieu-2.jpg" />
+    				<meta property="fb:admins" content="" />
+    				<meta property="fb:app_id" content="787777384699265" /> 
+    				<meta property="og:image:width" content="900" />
+					<meta property="og:image:height" content="603" />
+    			    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/style.css">
+    <link rel="stylesheet" type="text/css" title="" href="http://pho10lyquocsu.com/app/Theme/longdinh/css/font-awesome.css">
 </head>
 
-<body onkeydown="return false">
-    <div class="center">
-        <div class="popup">
-            <div class="title">
-                <ion-icon class="bell" name="notifications"></ion-icon>
-                HELLO MY LOVE
-            </div>
-            <div id="description">
-            </div>
-            <div class="dismiss-btn">
-                <button id="dismiss-popup-btn">
-                    OK🤤
-                </button>
+<body>
+    <header class="container-fluid bg-color">
+        <div class="container">
+            <div class="row d-flex header wow fadeInUp wHighlight" data-wow-delay=".25s">
+                <a href="/" class="logo"><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/logo.png" class="img-fluid" alt=""></a>
+                <div class="hamburger hamburger--squeeze align-self-center ml-auto">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+                <ul class="header-navbar align-self-lg-center ml-auto text-uppercase">
+                	<li>  
+                          <a  href="http://pho10lyquocsu.com/">Trang chủ</a>  
+                          </li> <li>  
+                          <a  href="http://pho10lyquocsu.com/notices/gioi-thieu.html">Giới thiệu</a>  
+                          </li> <li>  
+                          <a  href="http://pho10lyquocsu.com/notices/cat/thuc-don.html">Thực đơn</a>  
+                          </li> <li>  
+                          <a  href="http://pho10lyquocsu.com/albums/">Hình ảnh</a>  
+                          </li> <li>  
+                          <a  href="http://pho10lyquocsu.com/contact">Liên hệ</a>  
+                          </li>  
+                </ul>
             </div>
         </div>
-    </div>
-    <div id="root">
-        <div id="main">
-            <div class="container">
-                <!-- RENDER HERE ! -->
+    </header>    <article class="container-fluid slider-1">
+        <div class="row">
+            <div class="col-12 pd-lr-0">
+                <div class="slide-top">
+                    <div class="slide-01">
+                        <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide1-1.jpg"></div>
+                        <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide1-2.jpg"></div>
+                        <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide1-3.jpg"></div>
+                    </div>
+                    <div class="caption">
+                        <div class="content-caption">
+                            <h1 class="animated fadeInDown fz-45">HƯƠNG VỊ PHỞ VIỆT NAM <br>ĐÍCH THỰC</h1>
+                            <a href="#to-booking" class="to-booking wow bounceIn" >ĐẶT BÀN NGAY</a>
+                        </div>
+                    </div>
+                    <div class="clc-scroll">
+                        <a href="#introduce"><img id="icon-down" src="http://pho10lyquocsu.com/app/Theme/longdinh/images/icons/down.png"></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </article>
+    <article class="container-fluid" id="introduce">
+        <div class="row about-us align-self-stretch pd-lr-0">
+            <div class="col-lg-6 col-12 about-us-content-wrap bg-gold-gradient pd-lr-0">
+                <div class="about-us-content d-flex wow fadeInLeft wHighlight" data-wow-delay=".25s">
+                    <div class="align-self-center">
+                        <p class="fz-25">Giới thiệu về</p>
+                        <h1 class="fz-40">CHÚNG TÔI</h1><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/dish-icon.png">
+                        <p class="fz-18">Ở Hà Nội không khó để tìm một quán ăn có bán phở, nhưng những địa điểm nổi tiếng với phở ngon thì không có nhiều. Tuy nhiên với những người sành ăn thì phố Lý Quốc Sư đã thực sự trở thành một điểm đến quen thuộc mỗi khi họ muốn thưởng thức một bát phở ngon và chất lượng. Phở Lý Quốc Sư mà đặc biệt là quán phở 10 Lý Quốc Sư với tấm biển đỏ nổi bật là một trong những quán ăn mà thực khách rất yêu thích.</p>
+                        <h3 class="fz-26">Phở Lý Quốc Sư vẫn giữ được phương pháp nấu phở truyền thống, trong mỗi bát phở chứa đựng cả sự ngọt ngào, tâm huyết của người đầu bếp với mong muốn mang đến cho thực khách những bát phở ngon nhất và chất lượng nhất!</h3></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 about-us-img pd-lr-0  wow fadeInRight wHighlight" data-wow-delay=".25s"><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/cheff.jpg"></div>
+        </div>
+    </article>
+    <article class="container-fluid bg-color">
+        <div class="row">
+            <div class="col-12 home-menu">
+                <p class="fz-25  wow fadeInDown wHighlight" data-wow-delay=".25s"><em>Khám phá</em></p>
+                <h1 class="fz-40  wow fadeInUp wHighlight" data-wow-delay=".25s">THỰC ĐƠN</h1>
+                <img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/dish-icon-white.png">
+            </div>
+        </div>
+    </article>
+    <article class="container-fluid slider-2">
+        <div class="row">
+            <div class="col-12 pd-lr-0">
+                <div class="slide-02">
+                    <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide2-1.jpg"></div>
+                    <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide2-1.jpg"></div>
+                    <div><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/slide2-1.jpg"></div>
+                </div>
+                <img id="icon-down" src="http://pho10lyquocsu.com/app/Theme/longdinh/images/icons/down.png"></div>
+        </div>
+    </article>
+    <article id="to-booking" class="container-fluid bg-color booking">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 time-opening bg-gold-gradient">
+                    <div class="time-opening-content d-flex  wow fadeInLeft wHighlight" data-wow-delay=".25s">
+                        <div class="align-self-center text-uppercase">
+                            <p class="fz-29">GIỜ MỞ CỬA</p>
+                            <p class="fz-18">Số 10 Lý Quốc Sư
+                                <br>6:00 - 22:00</p>
+                            <p class="fz-18">N2A Hoàng Minh Giám
+                                <br>6:00 - 22:00</p>
+                            <p class="fz-18">26 lô 6 Tố Hữu
+                                <br>6:00 - 22:00</p>
+                            <hr>
+                            <p class="fz-27">02438257338</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 booking-form  wow fadeInRight wHighlight" data-wow-delay=".25s">
+                    <header class="row">
+                        <div class="col-12">
+                            <p class="fz-25"><em>Reservation</em></p>
+                            <h1 class="fz-40">ĐẶT BÀN</h1><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/dish-icon.png"></div>
+                    </header>
+                    <form class="row form-order" action="" method="post">
+                        <div class="col-12 step-1">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <input type="text" class="form-control" name="Name" placeholder="Họ tên" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <input type="email" class="form-control" name="Email" placeholder="Email">
+                                </div>
+                                <div class="col-lg-4 col">
+                                    <input type="text" class="form-control" name="Phone" placeholder="Tel" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <input type="text" class="form-control" name="Songuoi" placeholder="Số người">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <input type="text" class="form-control" name="Date" placeholder="DD/MM/YYY">
+                                </div>
+                                <div class="col-lg-4 col">
+                                    <input type="text" class="form-control" name="Gio" placeholder="Giờ">
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <button type="submit">ĐẶT BÀN NGAY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 step-2 d-none">
+                            <h4 style="font-family: Trajan; font-weight: 700; font-size: 22px; text-align: center; color: #1bb556">Chúng mừng bạn đã đặt bàn thành công!</h4>
+                            <p>Bộ phận CSKH sẽ liên hệ lại với bạn để xác nhận lại thông tin đăng ký. Có thể chúng tôi sẽ liên hệ lại với bạn muộn hơn nếu bạn đăng ký vào cuối tuần hoặc dịp nghỉ lễ. </p>
+                            <p class="font-bold"><b>BẠN VUI LÒNG NGHE SỐ MÁY LẠ</b></p>
+                            <p class="p-b-20">Bất kỳ thắc mắc nào hãy liên hệ: info@longdinh.vn hoặc gọi điện thoại đến Hotline: 02438257338</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12  wow fadeInUp wHighlight" data-wow-delay=".15s">
+                    <a href="" class="logo"><img src="http://pho10lyquocsu.com/app/Theme/longdinh/images/logo.png"></a>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 footer-place align-self-center  wow fadeInUp wHighlight" data-wow-delay=".25s">
+                    <p class="fz-17">Cơ sở 1: số 10 Lý Quốc Sư - <a href="tel: 02438257338">02438.257.338</a></p>
+                    <p class="fz-17">Cơ sở 2: N2A Hoàng Minh Giám - <a href="tel: 0944795588">0944795588</a></p>
+                    <p class="fz-17">Cơ sở 3: 26 lô 6 Tố Hữu, Vạn Phúc, Hà Đông - <a href="tel: 0944795588">0944795588</a></p>
+                </div>
+                <div class="col-lg col-12 footer-copyright align-self-center  wow fadeInUp wHighlight" data-wow-delay=".35s">
+                    <p class="fz-27 text-uppercase">Hotline: <a href="tel: 02438257338">02438.257.338</a></p>
+                    <p class="note"><em>© 2020 All Rights Reserved. Developed by Mantan Việt Nam</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://pho10lyquocsu.com/app/Theme/longdinh/js/jquery.min.js"></script>
+    <script src="http://pho10lyquocsu.com/app/Theme/longdinh/js/popper.min.js"></script>
+    <script src="http://pho10lyquocsu.com/app/Theme/longdinh/js/bootstrap.min.js"></script>
+    <script src="http://pho10lyquocsu.com/app/Theme/longdinh/js/slick.min.js"></script>
+    <script type="text/javascript" src="http://pho10lyquocsu.com/app/Theme/longdinh/js/wow.min.js"></script>
+    <script src="http://pho10lyquocsu.com/app/Theme/longdinh/js/myscript.js"></script>
+    			<div class="modal" tabindex="-1" role="dialog" id="myModal">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title">Thông báo</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Phở 10 L&yacute; Quốc Sư ch&iacute;nh thức th&ocirc;ng b&aacute;o mở cửa hoạt động từ <strong>thứ 7 ng&agrave;y 26/06/2021</strong></p>
 
-    <!--test dark mod
-    <style>
-        :root{
-            --transition-effect: 0.25s cubic-bezier(.25,-0.59,.82,1.66) .3s;
-        }
-        body{
-            background: rgb(111, 198, 238);
-            transition: var(--transition-effect);
-        }
-        body.dark{
-            background: rgb(235, 166, 145);
-        }
-        #wrapper{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 60vh;
-        }
-        .switch-toggle{
-            width: 80px;
-            height: 40px;
-            appearance: none;
-            background: #c0e3f3;
-            border-radius: 26px;
-            position: relative;
-            cursor: pointer;
-            box-shadow: inset 0px 0px 16px rgba(216, 40, 40, 0.3);
-            transition: var(--transition-effect);
-        }
-        .switch-toggle::before{
-            content: "";
-            width: 34px;
-            height: 34px;
-            position: absolute;
-            top: 3px;
-            left: 3px;
-            background: #f5d16f;
-            border-radius: 50%;
-            box-shadow: 0px 0px 6px rgba(190, 10, 10, 0.3);
-            transition: var(--transition-effect);
-        
-        }
-        .switch-toggle:checked{
-            background: #749dd6;
-        }
-        .switch-toggle:checked:before{
-            left: 40px;
-        }
-    </style>
-    <div id="wrapper">
-        <input type="checkbox" name="" class="switch-toggle" id="light-dark">
-    </div>
-    <script>
-        var checkbox_toggle = document.getElementById('light-dark');
-        checkbox_toggle.addEventListener('change', function(){
-            // THêm class dark cho body
-            document.body.classList.toggle('dark');
-        });
-    </script> -->
-    
+<ol>
+	<li>Số 10 L&yacute; Quốc Sư - 02438.257.338</li>
+	<li>N2A Ho&agrave;ng Minh Gi&aacute;m - 0944795588</li>
+</ol>
 
-    <!-- PLUGIN  -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-        crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <!-- SCRIPT -->
+<p>K&iacute;nh mời Qu&yacute; kh&aacute;ch h&agrave;ng gh&eacute; qua qu&aacute;n của ch&uacute;ng t&ocirc;i để thưởng thức hương vị Phở 10 L&yacute; Quốc Sư</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			
+			<script type="text/javascript">
+				$('#myModal').modal('show')
+			</script>
+		</body>
 
-    <script src="./public/js/config.js"></script>
-    <script src="./public/js/app.js"></script>
-          <audio autoplay>
-            <source src=".public/music.mp3" type="audio/mpeg">
-          </audio>
-          <style>
-            html,body{cursor:url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;}
-            a:hover{cursor:url("https://1.bp.blogspot.com/-nYv2dLl3oXY/YL9utYBCh8I/AAAAAAAAFtA/wII4lVw5w4k-4isGMY41heTqk8U4TJujgCLcBGAsYHQ/s0/mouse-f2.png"), auto;}
-        </style>
-</body>
-
-</html>
+</html>    
